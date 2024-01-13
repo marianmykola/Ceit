@@ -4,6 +4,7 @@ import LoginForm from '../components/LoginForm.vue';
 import DataTable from '../components/DataTable.vue';
 import RegistrationForm from '@/components/RegistrationForm.vue';
 import DataBasePG from '../components/DataBasePG.vue';
+import AddData from '../components/AddData.vue';
 
 
 
@@ -18,8 +19,11 @@ const routes = [
   },
   { path: '/data', component: DataTable, meta: { requiresAuth: true } },
 
-  { path: '/dataPG', component: DataBasePG, meta: { requiresAuth: true } }
+  { path: '/add', component: AddData, meta: { requiresAuth: true } },
+  { path: '/dataPG', component: DataBasePG, meta: { requiresAuth: true } },
+
 ]
+
 
 const router = createRouter({
     history: createWebHistory(),

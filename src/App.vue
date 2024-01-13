@@ -12,6 +12,9 @@
 <div class="d">
 <router-link to="/dataPG">DataPG</router-link>
 </div>
+<div class="d">
+<router-link to="/add">Add</router-link>
+</div>
 <router-view></router-view>
 
 </template>
@@ -22,14 +25,10 @@
 
 #app {
 
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-
 
 }
  body{
-background-color: #0fffff;
+background-color: #0fffffff;
 }
 .l, .r, .d{
 text-align: center;
